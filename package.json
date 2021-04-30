@@ -1,15 +1,19 @@
 {
-  "name": "learn-next",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.2.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  }
+	"name": "learn-next",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"json-server": "json-server --watch db.json --port 4000 --delay 200"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"bootstrap": "^4.6.0",
+		"json-server": "^0.16.3",
+		"next": "10.2.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	}
 }
