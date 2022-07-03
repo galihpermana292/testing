@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import '../css/site.css';
@@ -12,18 +12,41 @@ const Home = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col margintopbottom">
-						<h2>Home</h2>
+						<h2>Dear Indah,</h2>
 						<h6 className="margintopbottom20">
-							Silicon Valley Code Camp is a community event where
-							developers learn from fellow developers.
+							Hi sayang, i just want to say thanks aja kok ke kamu, makasih
+							yaaaa udah mau jd pacar aku yang ga ribet, ga banyak mau, ga
+							banyak ngatur-ngatur, pokoknya kamu tu jos banget lahhhh,
+							hahahahaha. Sayanggg, padahal aku cuma mau ngasih kaos sama botol
+							doang, heboh banget ya pake website segala hahahahah. Gapapa deh,
+							asal kamu tau aku bikin website ini pas baru bangun kamu telpon
+							tadi pagi banget loh.
 						</h6>
+						<h6 className="margintopbottom20">
+							Oh iya, you have to know that...
+						</h6>
+						<h6 className="margintopbottom20">
+							You are so beautiful, pretty, cute, funny, andddddddddd lovely. Im
+							so proud and happy for having you to be my gf and i will never let
+							you go, xixixixixi. Gimana aku udah kaya vicky belum? udah ya?
+							hahahahahaha.
+						</h6>
+						<h6 className="margintopbottom20">Last but not least...</h6>
+						<div className="text-center my-5">
+							<img src="/static/img1.png" width={'100%'} />
+
+							<img src="/static/img2.png" width={'100%'} className="mt-4" />
+						</div>
+						<h1 className="mb-5">Trust me, i love you a tons</h1>
+						<a href="https://wa.link/2y9sw7" className="mb-5" target={'_blank'}>
+							Klik ini sayangggg
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	);
 };
-
 
 // Home.getInitialProps = async (ctx) => {
 //    const initialProps = await Document.getInitialProps(ctx)
